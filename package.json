@@ -1,0 +1,14 @@
+{
+  "name": "diabetes-prediction",
+  "version": "1.0.0",
+  "description": "Diabetes Prediction using Multiple Classifiers",
+  "main": "run.py",
+  "scripts": {
+    "start": "python run.py",
+    "train": "python main.py",
+    "predict": "python predict.py"
+  },
+  "dependencies": {
+    "diabetes-prediction": "file:"
+  }
+}
